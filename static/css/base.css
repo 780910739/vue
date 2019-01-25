@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  font-size: 12px;
+  background: #F8F8F8;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li, i{
+  list-style: none;
+}
+.w_h_100{
+  width: 100%;
+  height: 100%;
+}
+.w_100{
+  width: 100%;
+}
+.h_100{
+  height: 100%;
+}
+.bl{
+  display:block;
+}
+.d-n{
+  display:none;
+}
+.in{
+  display:inline;
+}
+.b_i{
+  display:inline-block;
+}
+.t_l{
+  text-align: left;
+}
+.t_c{
+  text-align: center;
+}
+.t_r{
+  text-align: right;
+}
+
+.flex{
+  display:flex;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-o-flex;
+}
+.f_1{
+  flex:1;
+}
+.row{
+  flex-flow: row;
+}
+
+.row-reverse{
+  flex-flow: row-reverse;
+}
+
+.column{
+  flex-flow: column;
+}
+
+.column-reverse{
+  flex-flow: column-reverse;
+}
+
+.justify_st{
+  justify-content: flex-start;
+}
+
+.justify_ct{
+  justify-content: center;
+}
+
+.justify_ed{
+  justify-content: flex-end;
+}
+
+.justify_bt{
+  justify-content: space-between;
+}
+
+.justify_ad{
+  justify-content:space-around;
+}
+
+.item_st{
+  align-items: flex-start;
+}
+
+.item_ct{
+  align-items: center;
+}
+
+.item_ed{
+  align-items: flex-end;
+}
+
+.item_sth{
+  align-items: stretch;
+}
+
+.item_bl{
+  align-items: baseline;
+}
+
+.border-box{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.content-box{
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+.ellipsis{
+  overflow: hidden;/*超出部分隐藏*/
+  white-space: nowrap;/*不换行*/
+  text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
+
+input::-webkit-input-placeholder{
+  color:#999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color:#999;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:#999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+  color:#999;
+}
+input{
+  border:none;
+  outline: none;
+  background:#F8F8F8 !important;
+}
+
+.contentTitle{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*设置成弹性盒子 */
+  display: -webkit-box;
+  /*显示的个数 */
+  -webkit-line-clamp: 2;
+  /* 属性规定框的子元素应该被水平或垂直排列。 */
+  -webkit-box-orient: vertical;
+}
+.fixed{
+  position: fixed;
+}
+
+.bg_fff{
+  background: #fff;
+}

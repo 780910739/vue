@@ -1,0 +1,15 @@
+{
+  "errCode":"0000",
+  "code":"0000",
+  "data":{
+    "id":"0101",
+    "userName":"sunnyJack",
+    "nickName":"谜尚",
+    "about":"我是一个有梦想的人",
+    "pic":"https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=3899933224,734271981&fm=85&s=6BFA72DA67080F5B80E9A626030020D7",
+    "skill":"专注妇联网行专注妇联网行业专注妇联网行业业",
+    "followMan":4,
+    "fans":7,
+    "comment":10
+  }
+}
