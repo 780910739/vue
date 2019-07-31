@@ -18,6 +18,7 @@
       <txt-news-list :list-data="$store.state[module].newsData.newsList" :news-detail="jumpNewsDetail" :load-top-data="loadTopData" :load-more-data="loadMore" :loading="$store.state[module].loading" :queryLoading="$store.state[module].queryLoading" :allLoaded="$store.state[module].allLoaded"></txt-news-list>
       </div>
     </div>
+    <dev>111</dev>
     <div v-if="$store.state[module].activatedIndex===2" class="userBox border-box h_100" :class="$store.state[module].fixedMy?'fixed':''">
       <div class="userInfor">
         <txt-user :infor-data="$store.state[module].userInfor" :jump-user="jumpAuthor"></txt-user>
